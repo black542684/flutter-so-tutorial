@@ -1,3 +1,3 @@
 # ninja log v6
-2	93	7945813061384484	CMakeFiles/calculate.dir/native_lib.c.o	180caa3273323889
-103	272	7945813062399083	libcalculate.so	3ad9f8ccf18a051f
+1	33	7948361055833002	CMakeFiles/calculate.dir/native_lib.c.o	180caa3273323889
+37	95	7948361056188512	libcalculate.so	3ad9f8ccf18a051f

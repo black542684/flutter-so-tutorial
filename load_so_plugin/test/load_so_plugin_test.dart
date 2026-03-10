@@ -5,7 +5,6 @@ import 'package:load_so_plugin/load_so_plugin_method_channel.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
 class MockLoadSoPluginPlatform
-    with MockPlatformInterfaceMixin
     implements LoadSoPluginPlatform {
   @override
   Future<String?> getPlatformVersion() => Future.value('42');
@@ -15,7 +14,7 @@ void main() {
   final LoadSoPluginPlatform initialPlatform = LoadSoPluginPlatform.instance;
 
   test('$MethodChannelLoadSoPlugin is the default instance', () {
-    expect(initialPlatform, isInstanceOf<MethodChannelLoadSoPlugin>());
+    expect(initialPlatform, isA<MethodChannelLoadSoPlugin>());
   });
 
   test('getPlatformVersion', () async {

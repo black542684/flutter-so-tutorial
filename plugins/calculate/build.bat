@@ -85,7 +85,7 @@ if %SUCCESS_COUNT%==4 (
 
 :compile_arch
 set "ABI=%1"
-set "BUILD_DIR=%PROJECT_DIR%build\%ABI%"
+set "BUILD_DIR=%PROJECT_DIR%\build\%ABI%"
 set "OUTPUT_DIR=%JNILIBS_DIR%\%ABI%"
 
 if exist "%BUILD_DIR%" (
